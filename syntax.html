@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<head>
+<head role="banner">
 <meta charset="utf-8">
 <title>HTML Syntax</title>
 <link href="_css/styles.css" rel="stylesheet" type="text/css">
@@ -9,14 +9,14 @@
 <h1>Comp 484</h1>
 <h2>HTML Syntax</h2>
 <ul>
-  <li><a href="index.html" title="Introduction to HTML">Introduction to HTML</a></li>
+  <li role="navigation"><a href="index.html" title="Introduction to HTML">Introduction to HTML</a></li>
   <li><a href="syntax.html" title="HTML syntax">HTML syntax</a></li>
   <li><a href="structure.html" title="Structuring pages">Structuring pages</a></li>
   <li><a href="links.html" title="Creating links">Creating links</a></li>
   <li><a href="reference.html" title="HTML Reference">HTML reference</a></li>
   <li><a href="next.html" title="Next steps">Next steps</a></li>
 </ul>
-<p>Because HTML is often the people&rsquo;s first experience with coding, there can be a fair amount of apprehension about learning it. Thankfully, HTML syntax is relatively simple and easy to learn. Most people can learn the basics of HTML and begin coding it within the same day.</p>
+<p role="main">Because HTML is often the people&rsquo;s first experience with coding, there can be a fair amount of apprehension about learning it. Thankfully, HTML syntax is relatively simple and easy to learn. Most people can learn the basics of HTML and begin coding it within the same day.</p>
 <h3>A markup language</h3>
 <p>HTML is a markup language. That means that content on the page is &ldquo;marked up&rdquo; by tags which identify the content inside of them. A paragraph, for example, can be identified by placing the &ldquo;&lt;p&gt;&rdquo; opening tag prior to the paragraphs content and the &ldquo;&lt;/p&gt;&rdquo; closing tag at the end of a paragraph. The full paragraph would look like this:</p>
 <pre><code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code></pre>
@@ -42,7 +42,7 @@
 <pre><code>&lt;!DOCTYPE HTML&gt;</code>
 </pre>
 <h3>Element attributes</h3>
-<p>Some elements can be enhanced through the use of attributes. Attributes allow you to provide more information or additional functionality to the content. Attributes are added to the opening tag of an element and consist of two parts, the <strong>name</strong> and <strong>value</strong>. Although the syntax varies based on the version of HTML you&rsquo;re using, it&rsquo;s standard practice to put values within quotation marks.</p>
+<p role="complementary">Some elements can be enhanced through the use of attributes. Attributes allow you to provide more information or additional functionality to the content. Attributes are added to the opening tag of an element and consist of two parts, the <strong>name</strong> and <strong>value</strong>. Although the syntax varies based on the version of HTML you&rsquo;re using, it&rsquo;s standard practice to put values within quotation marks.</p>
 <pre><code>&lt;h1 class=&rdquo;headline&rdquo;&gt;Article&rsquo;s main headline&lt;/h1&gt;</code></pre>
 <h3>Replaced elements</h3>
 <p>Some HTML elements represent content that is replaced by an outside resource such as an image, form control, or a video file. These elements are referred to as <strong>replaced elements</strong> and usually have a predetermined width or height. In some cases the elements will have attributes that tell the browser where to find an external resource like an image or video.</p>
